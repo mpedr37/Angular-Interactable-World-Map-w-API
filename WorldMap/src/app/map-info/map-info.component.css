@@ -1,0 +1,22 @@
+.detail-box {
+  text-align: center;
+  border: solid 1px;
+  margin: 2vw 1vw;
+  background-color: beige;
+  padding: 10px;
+}
+
+th, td {
+  padding: 8px, 15px;
+  border: 1px solix black;
+}
+
+th {
+  text-decoration: underline 1px;
+  text-underline-offset: 2px;
+}
+
+td {
+  background-color: rgb(242, 244, 247);
+  border: 1px, solid;
+}

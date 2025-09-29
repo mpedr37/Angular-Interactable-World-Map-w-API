@@ -1,0 +1,25 @@
+<!--part C-->
+
+
+<table class="detail-box">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Region</th>
+        <th>Income Level</th>
+        <th>Capital City</th>
+        <th>Longitude</th>
+        <th>Latitude</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let country of mapInputData">
+        <td>{{country.Name}}</td>
+        <td>{{country.Region}}</td>
+        <td>{{country.CountryIncomeLevel}}</td>
+        <td>{{country.CountryCapitalCity}}</td>
+        <td>{{country.CountryLongitude}}</td>
+        <td>{{country.CountryLatitude}}</td>
+      </tr>
+    </tbody>
+</table>

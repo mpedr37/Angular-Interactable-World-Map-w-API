@@ -1,0 +1,13 @@
+<!--part E-->
+<h1 class="title">{{title}}</h1>
+<div class="container">
+  <div class="left-column">
+    <app-map-comp (onSvgClick)="onCountryCode($event)">
+
+    </app-map-comp>
+  </div>
+  <div class="right-column">
+    <app-map-info [mapInputData]="mapData"></app-map-info>
+  </div>
+</div>
+
