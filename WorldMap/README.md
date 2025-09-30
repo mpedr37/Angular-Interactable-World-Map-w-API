@@ -1,3 +1,13 @@
+
+Using Terminal, change directory: cd WorldMap
+
+To run application, run command: ng serve -o
+
+
+
+
+
+
 # WorldMap
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
